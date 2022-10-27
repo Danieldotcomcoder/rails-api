@@ -83,5 +83,5 @@ production:
   url: <%= ENV["MY_APP_DATABASE_URL"] %>
   database: New_folder_production
   username: New_folder
-  password: <%= ENV["MY_APP_DATABASE_URL_PASSWORD"] %>
+  password: <%= ENV["MY_APP_DATABASE_PASSWORD"] %>
 

@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-ruby '3.1.1'
+ruby '3.1.2'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.4'
@@ -51,3 +51,5 @@ group :development do
   gem "capistrano", "~> 3.10", require: false
   gem "capistrano-rails", "~> 1.3", require: false
 end
+
+gem "tailwindcss-rails", "~> 2.0"

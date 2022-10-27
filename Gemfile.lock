@@ -161,6 +161,8 @@ GEM
     sshkit (1.21.3)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    tailwindcss-rails (2.0.16-x64-mingw-ucrt)
+      railties (>= 6.0.0)
     thor (1.2.1)
     timeout (0.3.0)
     tzinfo (2.0.5)
@@ -186,6 +188,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.4)
+  tailwindcss-rails (~> 2.0)
   tzinfo-data
 
 RUBY VERSION
