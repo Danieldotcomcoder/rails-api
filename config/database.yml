@@ -80,5 +80,6 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV["MY_APP_DATABASE_URL"] %>
   database: New_folder_production
 
